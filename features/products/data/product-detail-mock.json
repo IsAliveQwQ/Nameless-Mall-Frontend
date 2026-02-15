@@ -1,0 +1,111 @@
+{
+    "code": "OK",
+    "message": "成功",
+    "data": {
+        "id": 1,
+        "categoryId": 1,
+        "categoryName": "座椅系列",
+        "name": "Rey 經典實木單椅",
+        "title": "溫潤實心橡木 / 經久耐用的工藝標誌",
+        "description": "Rey 系列最初由瑞士設計師 Bruno Rey 於 1971 年設計。採用獨特的木材與金屬連接技術，極簡線條能完美融入任何建築空間。",
+        "price": 850.00,
+        "originalPrice": 1100.00,
+        "stock": 124,
+        "sales": 580,
+        "mainImage": "/images/products/seating/rey_chair_full.png",
+        "images": [
+            "/images/products/seating/rey_chair_full.png",
+            "/images/products/seating/chair_detail.png",
+            "/images/products/seating/rey_chair_full.png"
+        ],
+        "tags": [
+            "SOLID_WOOD",
+            "ICONIC",
+            "NEW"
+        ],
+        "displayOptions": {
+            "顏色": [
+                "經典黑",
+                "橡木原色",
+                "胡桃木色"
+            ],
+            "材質": [
+                "實心橡木",
+                "實心櫸木"
+            ]
+        },
+        "variants": [
+            {
+                "id": 1001,
+                "productId": 1,
+                "sku": "REY-BLK-OAK",
+                "price": 850.00,
+                "stock": 50,
+                "name": "經典黑 / 實心橡木",
+                "image": "/images/products/seating/rey_chair_full.png",
+                "options": [
+                    {
+                        "optionName": "顏色",
+                        "optionValue": "經典黑"
+                    },
+                    {
+                        "optionName": "材質",
+                        "optionValue": "實心橡木"
+                    }
+                ]
+            },
+            {
+                "id": 1002,
+                "productId": 1,
+                "sku": "REY-NAT-OAK",
+                "price": 850.00,
+                "stock": 34,
+                "name": "橡木原色 / 實心橡木",
+                "image": "/images/products/seating/rey_chair_full.png",
+                "options": [
+                    {
+                        "optionName": "顏色",
+                        "optionValue": "橡木原色"
+                    },
+                    {
+                        "optionName": "材質",
+                        "optionValue": "實心橡木"
+                    }
+                ]
+            },
+            {
+                "id": 1003,
+                "productId": 1,
+                "sku": "REY-WAL-BEE",
+                "price": 950.00,
+                "stock": 40,
+                "name": "胡桃木色 / 實心櫸木",
+                "image": "/images/products/seating/rey_chair_full.png",
+                "options": [
+                    {
+                        "optionName": "顏色",
+                        "optionValue": "胡桃木色"
+                    },
+                    {
+                        "optionName": "材質",
+                        "optionValue": "實心櫸木"
+                    }
+                ]
+            }
+        ],
+        "attrs": [
+            {
+                "attrId": 1,
+                "attrName": "材質",
+                "attrValue": "實心橡木"
+            },
+            {
+                "attrId": 2,
+                "attrName": "尺寸",
+                "attrValue": "W44 x D49 x H80 cm"
+            }
+        ],
+        "publishedAt": "2026-01-20T10:00:00",
+        "status": 1
+    }
+}

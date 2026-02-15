@@ -1,0 +1,141 @@
+{
+    "code": "OK",
+    "data": [
+        {
+            "id": 1,
+            "name": "座椅系列",
+            "parentId": 0,
+            "level": 1,
+            "sortOrder": 1,
+            "status": 1,
+            "children": [
+                {
+                    "id": 11,
+                    "name": "沙發系列",
+                    "parentId": 1,
+                    "level": 2,
+                    "sortOrder": 1,
+                    "status": 1
+                },
+                {
+                    "id": 12,
+                    "name": "經典單椅",
+                    "parentId": 1,
+                    "level": 2,
+                    "sortOrder": 2,
+                    "status": 1
+                },
+                {
+                    "id": 13,
+                    "name": "休閒躺椅",
+                    "parentId": 1,
+                    "level": 2,
+                    "sortOrder": 3,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "桌幾系列",
+            "parentId": 0,
+            "level": 1,
+            "sortOrder": 2,
+            "status": 1,
+            "children": [
+                {
+                    "id": 21,
+                    "name": "餐桌",
+                    "parentId": 2,
+                    "level": 2,
+                    "sortOrder": 1,
+                    "status": 1
+                },
+                {
+                    "id": 22,
+                    "name": "邊幾",
+                    "parentId": 2,
+                    "level": 2,
+                    "sortOrder": 2,
+                    "status": 1
+                },
+                {
+                    "id": 23,
+                    "name": "咖啡桌",
+                    "parentId": 2,
+                    "level": 2,
+                    "sortOrder": 3,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "燈飾系列",
+            "parentId": 0,
+            "level": 1,
+            "sortOrder": 3,
+            "status": 1,
+            "children": [
+                {
+                    "id": 31,
+                    "name": "吊燈",
+                    "parentId": 3,
+                    "level": 2,
+                    "sortOrder": 1,
+                    "status": 1
+                },
+                {
+                    "id": 32,
+                    "name": "檯燈",
+                    "parentId": 3,
+                    "level": 2,
+                    "sortOrder": 2,
+                    "status": 1
+                },
+                {
+                    "id": 33,
+                    "name": "壁燈",
+                    "parentId": 3,
+                    "level": 2,
+                    "sortOrder": 3,
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "生活家飾",
+            "parentId": 0,
+            "level": 1,
+            "sortOrder": 4,
+            "status": 1,
+            "children": [
+                {
+                    "id": 51,
+                    "name": "花瓶擺飾",
+                    "parentId": 5,
+                    "level": 2,
+                    "sortOrder": 1,
+                    "status": 1
+                },
+                {
+                    "id": 52,
+                    "name": "收納小物",
+                    "parentId": 5,
+                    "level": 2,
+                    "sortOrder": 2,
+                    "status": 1
+                },
+                {
+                    "id": 53,
+                    "name": "精選織物",
+                    "parentId": 5,
+                    "level": 2,
+                    "sortOrder": 3,
+                    "status": 1
+                }
+            ]
+        }
+    ]
+}

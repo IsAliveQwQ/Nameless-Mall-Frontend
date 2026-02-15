@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_USE_REAL_API=true
+      - NEXT_PUBLIC_API_BASE_URL=https://isaliveqwq.me
+      - NEXT_PUBLIC_GOOGLE_AUTH_URL=https://isaliveqwq.me/oauth2/authorization/google
+      - NEXT_PUBLIC_CALLBACK_URL=https://isaliveqwq.me/login/callback
+      - NEXT_PUBLIC_DEBUG_MODE=false
+    restart: unless-stopped
+    container_name: nameless-mall-frontend
