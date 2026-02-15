@@ -1,0 +1,68 @@
+### Dependencies ###
+/node_modules
+/.pnp
+.pnp.js
+
+### Testing ###
+/coverage
+
+### Next.js ###
+/.next/
+/out/
+/build
+
+### Production ###
+/dist
+
+### Scripts & Data (Redundant) ###
+*.py
+*.sql
+*.txt
+*.log
+brain_files.txt
+brain_paths.txt
+assets_list.txt
+lint-report.txt
+
+### Environment Variables ###
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+### VerCel ###
+.vercel
+
+### TypeScript ###
+*.tsbuildinfo
+next-env.d.ts
+
+### IDE & OS Files ###
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+### Agent & AI Files ###
+.agent/
+.gemini/
+.copilot/
+.shared/
+.claude/
+.cursor/
+.windsurf/
+
+### Documentation (Private) ###
+/docs/
+
+### Temp ###
+*.bak
+*~
+*.tmp

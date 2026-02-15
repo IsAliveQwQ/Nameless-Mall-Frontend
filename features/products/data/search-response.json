@@ -1,0 +1,2809 @@
+{
+    "code": "OK",
+    "data": {
+        "products": {
+            "content": [
+                {
+                    "id": 1,
+                    "categoryId": 12,
+                    "categoryName": "座椅系列",
+                    "name": "Rey 經典實木單椅",
+                    "title": "溫潤實心橡木 / 經久耐用的工藝標誌",
+                    "description": "Rey 系列由瑞士設計師 Bruno Rey 於 1971 年設計。獨特的鑄鋁連接結構與啞光橡木飾面，是經典極簡主義的代表作。",
+                    "thumbnail": "/images/generated/rey_chair_oak.png",
+                    "mainImage": "/images/generated/rey_chair_oak.png",
+                    "price": 850,
+                    "originalPrice": 1100,
+                    "stock": 12,
+                    "status": 1,
+                    "sales": 124,
+                    "tags": [
+                        "SOLID_WOOD",
+                        "NEW_ARRIVAL"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "橡木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W44 x D49 x H80 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/rey_chair_oak.png",
+                        "/images/generated/rey_chair_oak.png"
+                    ],
+                    "colors": [
+                        "曜石黑",
+                        "奶油白",
+                        "經典灰"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "categoryId": 13,
+                    "categoryName": "座椅系列",
+                    "name": "Pacha 雲頂休閒椅",
+                    "title": "頂級圈圈紗織物 / 彷彿置身雲端的舒適感",
+                    "description": "捨棄椅腳的包覆感設計，精選白色圈圈紗織物 (Bouclé)，為空間注入有機溫度與極致的放鬆感。",
+                    "thumbnail": "/images/generated/pacha_lounge_chair.png",
+                    "mainImage": "/images/generated/pacha_lounge_chair.png",
+                    "price": 2100,
+                    "originalPrice": 2100,
+                    "stock": 5,
+                    "status": 1,
+                    "sales": 58,
+                    "tags": [
+                        "PREMIUM_FABRIC",
+                        "ICONIC"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "圈圈紗布料"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W77 x D85 x H65 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/pacha_lounge_chair.png",
+                        "/images/generated/pacha_lounge_chair.png"
+                    ],
+                    "colors": [
+                        "奶油白",
+                        "珍珠灰"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "categoryId": 11,
+                    "categoryName": "座椅系列",
+                    "name": "Mags Soft 模組沙發",
+                    "title": "Kvadrat 頂級織物 / 建築感與柔延感的平衡",
+                    "description": "追求極致簡約的模組化特型。這款淺灰色調採用 Kvadrat 精選織物，色澤沈穩且耐磨，適合現代客廳。",
+                    "thumbnail": "/images/generated/mags_sofa_grey.png",
+                    "mainImage": "/images/generated/mags_sofa_grey.png",
+                    "price": 3400,
+                    "originalPrice": 4200,
+                    "stock": 2,
+                    "status": 1,
+                    "sales": 15,
+                    "tags": [
+                        "MODULAR",
+                        "LIVING_ROOM"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "織物"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W228 x D95 x H67 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/mags_sofa_grey.png",
+                        "/images/generated/mags_sofa_grey.png"
+                    ],
+                    "colors": [
+                        "淺岩灰",
+                        "深海藍"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "categoryId": 11,
+                    "categoryName": "座椅系列",
+                    "name": "Outline 經典三人沙發",
+                    "title": "俐落輪廓 / 經典建築美學再現",
+                    "description": "Outline 系列為經典的北歐沙發注入現代感，纖細的實木腿部與厚實的座墊形成視覺對比。",
+                    "thumbnail": "/images/generated/mags_sofa_grey.png",
+                    "mainImage": "/images/generated/mags_sofa_grey.png",
+                    "price": 2850,
+                    "originalPrice": 3200,
+                    "stock": 4,
+                    "status": 1,
+                    "sales": 42,
+                    "tags": [
+                        "CLASSIC",
+                        "ARCHITECTURAL"
+                    ],
+                    "isNew": false,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "羊毛織物"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W220 x D84 x H71 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/mags_sofa_grey.png"
+                    ],
+                    "colors": [
+                        "經典灰",
+                        "乾邑色"
+                    ]
+                },
+                {
+                    "id": 5,
+                    "categoryId": 11,
+                    "categoryName": "座椅系列",
+                    "name": "Enclose 休閒長沙發",
+                    "title": "有機弧線 / 營造沈浸式放鬆角落",
+                    "description": "充滿雕塑感的長沙發設計，以優雅的灰色織物填充。適合放置於窗邊，享受靜謐的午後。",
+                    "thumbnail": "/images/generated/mags_sofa_grey.png",
+                    "mainImage": "/images/generated/mags_sofa_grey.png",
+                    "price": 4200,
+                    "originalPrice": 4200,
+                    "stock": 1,
+                    "status": 1,
+                    "sales": 12,
+                    "tags": [
+                        "LOUNGE",
+                        "PREMIUM"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "天鵝絨"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W220 x D98 x H68 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/mags_sofa_grey.png"
+                    ],
+                    "colors": [
+                        "經典灰"
+                    ]
+                },
+                {
+                    "id": 6,
+                    "categoryId": 11,
+                    "categoryName": "座椅系列",
+                    "name": "Daybed 極簡日用床",
+                    "title": "織物與木材的高級對話",
+                    "description": "兼具沙發與床鋪功能的極簡單品。精選頂級耐磨織物，隨時間流逝呈現獨特韻味。",
+                    "thumbnail": "/images/generated/mags_sofa_grey.png",
+                    "mainImage": "/images/generated/mags_sofa_grey.png",
+                    "price": 5600,
+                    "originalPrice": 6800,
+                    "stock": 3,
+                    "status": 1,
+                    "sales": 8,
+                    "tags": [
+                        "DAYBED",
+                        "MINIMALIST"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "織物"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W190 x D80 x H46 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/mags_sofa_grey.png"
+                    ],
+                    "colors": [
+                        "淺灰"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "categoryId": 21,
+                    "categoryName": "桌幾系列",
+                    "name": "Carrara 大理石餐桌",
+                    "title": "義大利石材 / 永恆的建築語彙",
+                    "description": "採用一整塊完整的卡拉拉大理石切割而成，灰白紋理如水墨般流動。搭配幾何底座，展現極致的結構美學。",
+                    "thumbnail": "/images/generated/carrara_marble_table.png",
+                    "mainImage": "/images/generated/carrara_marble_table.png",
+                    "price": 8200,
+                    "originalPrice": 9500,
+                    "stock": 2,
+                    "status": 1,
+                    "sales": 5,
+                    "tags": [
+                        "MARBLE",
+                        "TABLE"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "大理石"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W200 x D100 x H74 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/carrara_marble_table.png",
+                        "/images/generated/carrara_marble_table.png"
+                    ],
+                    "colors": [
+                        "卡拉拉白"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "categoryId": 22,
+                    "categoryName": "桌幾系列",
+                    "name": "Noguchi 邊幾",
+                    "title": "藝術與工業的交界",
+                    "description": "這款邊幾展示了極簡主義的精髓，適合放置於沙發旁，玻璃桌面為空間帶來通透感。",
+                    "thumbnail": "/images/generated/noguchi_glass_table.png",
+                    "mainImage": "/images/generated/noguchi_glass_table.png",
+                    "price": 450,
+                    "originalPrice": 520,
+                    "stock": 10,
+                    "status": 1,
+                    "sales": 32,
+                    "tags": [
+                        "SIDE_TABLE",
+                        "GLASS"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "玻璃/木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W60 x D60 x H40 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/noguchi_glass_table.png"
+                    ],
+                    "colors": [
+                        "胡桃木色",
+                        "原木色"
+                    ]
+                },
+                {
+                    "id": 9,
+                    "categoryId": 32,
+                    "categoryName": "燈飾系列",
+                    "name": "Brass Glow 落地燈",
+                    "title": "黃銅工藝 / 極簡幾何照明",
+                    "description": "啞光黃銅支架搭配幾何線條設計，為空間帶來溫暖而現代的光影層次，是閱讀角的最佳伴侶。",
+                    "thumbnail": "/images/generated/brass_floor_lamp.png",
+                    "mainImage": "/images/generated/brass_floor_lamp.png",
+                    "price": 1250,
+                    "originalPrice": 1250,
+                    "stock": 8,
+                    "status": 1,
+                    "sales": 24,
+                    "tags": [
+                        "LIGHTING",
+                        "BRASS"
+                    ],
+                    "isNew": false,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "黃銅"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "H160 x W30 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/brass_floor_lamp.png"
+                    ],
+                    "colors": [
+                        "黃銅金"
+                    ]
+                },
+                {
+                    "id": 10,
+                    "categoryId": 31,
+                    "categoryName": "燈飾系列",
+                    "name": "Architectural 吊燈",
+                    "title": "工業美學 / 黑魂風格的幾何對稱",
+                    "description": "這款吊燈採用啞光黑飾面，具備強烈的建築量體感，適合餐廳或開放式辦公空間。",
+                    "thumbnail": "/images/products/lighting/pendant_lamp_full.png",
+                    "mainImage": "/images/products/lighting/pendant_lamp_full.png",
+                    "price": 950,
+                    "originalPrice": 1100,
+                    "stock": 15,
+                    "status": 1,
+                    "sales": 48,
+                    "tags": [
+                        "PENDANT",
+                        "INDUSTRIAL"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "鋼材"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "H160 x Ø35 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/pendant_lamp_full.png",
+                        "/images/products/lighting/pendant_lamp_full.png",
+                        "/images/products/lighting/pendant_lamp_full.png"
+                    ],
+                    "colors": [
+                        "拉絲黃銅",
+                        "磨砂黑",
+                        "噴砂玻璃"
+                    ]
+                },
+                {
+                    "id": 11,
+                    "categoryId": 52,
+                    "categoryName": "生活家飾",
+                    "name": "Walnut 收納櫃",
+                    "title": "沈穩木質 / 極簡收納的藝術",
+                    "description": "這款由頂級胡桃木打造的收納櫃，具備完美的比例與隱藏式把手設計，讓居家空間維持俐落美感。",
+                    "thumbnail": "/images/products/decor/storage_cabinet_full.png",
+                    "mainImage": "/images/products/decor/storage_cabinet_full.png",
+                    "price": 2800,
+                    "originalPrice": 3200,
+                    "stock": 5,
+                    "status": 1,
+                    "sales": 10,
+                    "tags": [
+                        "STORAGE",
+                        "WALNUT"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "胡桃木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W80 x D40 x H120 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/storage_cabinet_full.png",
+                        "/images/products/decor/storage_cabinet_full.png",
+                        "/images/products/decor/storage_cabinet_full.png"
+                    ],
+                    "colors": [
+                        "深胡桃",
+                        "象牙白",
+                        "質感金"
+                    ]
+                },
+                {
+                    "id": 12,
+                    "categoryId": 51,
+                    "categoryName": "生活家飾",
+                    "name": "Architectural 落地鏡",
+                    "title": "空間縮影 / 極窄邊框的幾何張力",
+                    "description": "這款落地鏡採用極窄黑框設計，鏡面淨透無暇，不僅是功能性家具，更是視覺層次的延伸。",
+                    "thumbnail": "/images/products/decor/architectural_mirror_full.png",
+                    "mainImage": "/images/products/decor/architectural_mirror_full.png",
+                    "price": 1150,
+                    "originalPrice": 1400,
+                    "stock": 7,
+                    "status": 1,
+                    "sales": 19,
+                    "tags": [
+                        "MIRROR",
+                        "MINIMALIST"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "金屬"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W80 x D40 x H120 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/architectural_mirror_full.png",
+                        "/images/products/decor/architectural_mirror_full.png",
+                        "/images/products/decor/architectural_mirror_full.png"
+                    ],
+                    "colors": [
+                        "深胡桃",
+                        "象牙白",
+                        "質感金"
+                    ]
+                },
+                {
+                    "id": 13,
+                    "categoryId": 32,
+                    "categoryName": "燈飾系列",
+                    "name": "Zen 禪意檯燈",
+                    "title": "手製和紙 / 東方謐靜之光",
+                    "description": "運用日本工藝和紙與黑色橡木底座，光線透過紙張呈現溫暖的琥珀色，營造冥想般的寧靜氛圍。",
+                    "thumbnail": "/images/generated/zen_table_lamp.png",
+                    "mainImage": "/images/generated/zen_table_lamp.png",
+                    "price": 680,
+                    "originalPrice": 880,
+                    "stock": 15,
+                    "status": 1,
+                    "sales": 45,
+                    "tags": [
+                        "LIGHTING",
+                        "ZEN"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "和紙/橡木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "H45 x Ø25 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/zen_table_lamp.png"
+                    ],
+                    "colors": [
+                        "米白",
+                        "墨黑"
+                    ]
+                },
+                {
+                    "id": 14,
+                    "categoryId": 11,
+                    "categoryName": "座椅系列",
+                    "name": "Mags 精選模組沙發",
+                    "title": "深海藍織物 / 建築美學的極致比例",
+                    "description": "Mags 系列專注於沙發的本質：舒適與耐用。這款深海藍配色採用 Kvadrat 高階面料，為寬廣的客廳提供沈穩的視覺基調。",
+                    "thumbnail": "/images/products/seating/mags_sofa_full.png",
+                    "mainImage": "/images/products/seating/mags_sofa_full.png",
+                    "price": 3800,
+                    "originalPrice": 4200,
+                    "stock": 4,
+                    "status": 1,
+                    "sales": 12,
+                    "tags": [
+                        "MODULAR",
+                        "PREMIUM"
+                    ],
+                    "isNew": false,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "Kvadrat 織物"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W55 x D52 x H78 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/mags_sofa_full.png",
+                        "/images/products/seating/mags_sofa_full.png",
+                        "/images/products/seating/mags_sofa_full.png"
+                    ],
+                    "colors": [
+                        "曜石黑",
+                        "奶油白",
+                        "經典灰"
+                    ]
+                },
+                {
+                    "id": 15,
+                    "categoryId": 12,
+                    "categoryName": "座椅系列",
+                    "name": "Rey 經典單椅 (曜石黑)",
+                    "title": "無縫鑄鋁接合 / 瑞士設計的永恆輪廓",
+                    "description": "曜石黑飾面讓 Rey Chair 展現出更強烈的雕塑性。木材與金屬的有機結合，使其在各種室內環境中都能脫穎而出。",
+                    "thumbnail": "/images/products/seating/rey-chair-classic.jpg",
+                    "mainImage": "/images/products/seating/rey-chair-classic.jpg",
+                    "price": 880,
+                    "originalPrice": 1100,
+                    "stock": 15,
+                    "status": 1,
+                    "sales": 85,
+                    "tags": [
+                        "CLASSIC",
+                        "WOOD"
+                    ],
+                    "isNew": false,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "櫸木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W55 x D52 x H78 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/rey-chair-classic.jpg",
+                        "/images/products/seating/rey-chair-classic.jpg",
+                        "/images/products/seating/rey-chair-classic.jpg"
+                    ],
+                    "colors": [
+                        "曜石黑",
+                        "奶油白",
+                        "經典灰"
+                    ]
+                },
+                {
+                    "id": 16,
+                    "categoryId": 13,
+                    "categoryName": "座椅系列",
+                    "name": "Pacha 系列 (經典飾面)",
+                    "title": "1975 經典復刻 / 圓潤無暇的舒適體驗",
+                    "description": "Pacha Chair 象徵著 70 年代的樂觀主義。無椅腳的設計打破了傳統家具的限制，帶來如雲端般的坐感。",
+                    "thumbnail": "/images/products/seating/pacha-chair-classic.jpg",
+                    "mainImage": "/images/products/seating/pacha-chair-classic.jpg",
+                    "price": 2200,
+                    "originalPrice": 2200,
+                    "stock": 6,
+                    "status": 1,
+                    "sales": 42,
+                    "tags": [
+                        "ICONIC",
+                        "COMFORT"
+                    ],
+                    "isNew": false,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "羊毛面料"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W55 x D52 x H78 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/pacha-chair-classic.jpg",
+                        "/images/products/seating/pacha-chair-classic.jpg",
+                        "/images/products/seating/pacha-chair-classic.jpg"
+                    ],
+                    "colors": [
+                        "曜石黑",
+                        "奶油白",
+                        "經典灰"
+                    ]
+                },
+                {
+                    "id": 17,
+                    "categoryId": 11,
+                    "categoryName": "座椅系列",
+                    "name": "Mags Soft 兩人沙發",
+                    "title": "淺灰織物 / 柔延感與支撐力的平衡",
+                    "description": "Soft 版本為 Mags 系列增加了額外的蓬鬆層，在維持簡潔線條的同時，提供更佳的沈入式體驗。",
+                    "thumbnail": "/images/products/seating/mags-sofa-classic.jpg",
+                    "mainImage": "/images/products/seating/mags-sofa-classic.jpg",
+                    "price": 3100,
+                    "originalPrice": 3500,
+                    "stock": 3,
+                    "status": 1,
+                    "sales": 28,
+                    "tags": [
+                        "SOFA",
+                        "MINIMAL"
+                    ],
+                    "isNew": false,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "織物"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W55 x D52 x H78 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/mags-sofa-classic.jpg",
+                        "/images/products/seating/mags-sofa-classic.jpg",
+                        "/images/products/seating/mags-sofa-classic.jpg"
+                    ],
+                    "colors": [
+                        "曜石黑",
+                        "奶油白",
+                        "經典灰"
+                    ]
+                },
+                {
+                    "id": 18,
+                    "categoryId": 21,
+                    "categoryName": "桌幾系列",
+                    "name": "CPH 90 經典工作桌",
+                    "title": "傳統與現代的橋樑 / 校園美學的居家轉身",
+                    "description": "由 Bouroullec 兄弟設計，向經典的校園家具致敬。純粹的對稱感與溫潤的木質處理，使其成為書房的完美核心。",
+                    "thumbnail": "/images/products/tables/copenhague-desk.jpg",
+                    "mainImage": "/images/products/tables/copenhague-desk.jpg",
+                    "price": 1450,
+                    "originalPrice": 1650,
+                    "stock": 8,
+                    "status": 1,
+                    "sales": 56,
+                    "tags": [
+                        "DESK",
+                        "OAK"
+                    ],
+                    "isNew": false,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "橡木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W120 x D60 x H74 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/tables/copenhague-desk.jpg",
+                        "/images/products/tables/copenhague-desk.jpg",
+                        "/images/products/tables/copenhague-desk.jpg"
+                    ],
+                    "colors": [
+                        "胡桃木色",
+                        "原木色",
+                        "啞光黑"
+                    ]
+                },
+                {
+                    "id": 19,
+                    "categoryId": 23,
+                    "categoryName": "桌幾系列",
+                    "name": "Noguchi 經典咖啡桌",
+                    "title": "功能性雕塑 / 藝術與工業的交界",
+                    "description": "伊武野口 1944 年的作品。由兩個互鎖的實木底座與一塊厚實的強化玻璃構成，是現代家具設計史上最知名的桌幾之一。",
+                    "thumbnail": "/images/products/tables/noguchi-table.jpg",
+                    "mainImage": "/images/products/tables/noguchi-table.jpg",
+                    "price": 2800,
+                    "originalPrice": 3200,
+                    "stock": 4,
+                    "status": 1,
+                    "sales": 19,
+                    "tags": [
+                        "COFFEE_TABLE",
+                        "GLASS"
+                    ],
+                    "isNew": false,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "白蠟木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W120 x D60 x H74 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/tables/noguchi-table.jpg",
+                        "/images/products/tables/noguchi-table.jpg",
+                        "/images/products/tables/noguchi-table.jpg"
+                    ],
+                    "colors": [
+                        "胡桃木色",
+                        "原木色",
+                        "啞光黑"
+                    ]
+                },
+                {
+                    "id": 20,
+                    "categoryId": 32,
+                    "categoryName": "燈飾系列",
+                    "name": "Brass Glow 燈飾細節",
+                    "title": "匠心凝聚 / 黃銅表面的時間張力",
+                    "description": "每一件 Brass Glow 燈飾都經過手工拉絲處理，展現出獨特且細膩的紋理，在光影穿透下更顯尊榮。",
+                    "thumbnail": "/images/products/lighting/lamp_detail.png",
+                    "mainImage": "/images/products/lighting/lamp_detail.png",
+                    "price": 320,
+                    "originalPrice": 450,
+                    "stock": 25,
+                    "status": 1,
+                    "sales": 110,
+                    "tags": [
+                        "DETAIL",
+                        "BRASS"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "黃銅"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "H160 x Ø35 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/lamp_detail.png",
+                        "/images/products/lighting/lamp_detail.png",
+                        "/images/products/lighting/lamp_detail.png"
+                    ],
+                    "colors": [
+                        "拉絲黃銅",
+                        "磨砂黑",
+                        "噴砂玻璃"
+                    ]
+                },
+                {
+                    "id": 21,
+                    "categoryId": 23,
+                    "categoryName": "桌幾系列",
+                    "name": "Carrara 大理石紋理版",
+                    "title": "自然之詩 / 每一條紋理都是歷史",
+                    "description": "精選義大利最優質的大理石層位，這款限定版咖啡桌展現了極高飽和度的天然紋理，是奢華空間的藝術點綴。",
+                    "thumbnail": "/images/products/tables/table_detail.png",
+                    "mainImage": "/images/products/tables/table_detail.png",
+                    "price": 5400,
+                    "originalPrice": 6200,
+                    "stock": 2,
+                    "status": 1,
+                    "sales": 4,
+                    "tags": [
+                        "MARBLE",
+                        "EXCLUSIVE"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "卡拉拉大理石"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W120 x D60 x H74 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/tables/table_detail.png",
+                        "/images/products/tables/table_detail.png",
+                        "/images/products/tables/table_detail.png"
+                    ],
+                    "colors": [
+                        "胡桃木色",
+                        "原木色",
+                        "啞光黑"
+                    ]
+                },
+                {
+                    "id": 22,
+                    "categoryId": 53,
+                    "categoryName": "生活家飾",
+                    "name": "Kvadrat 精選織物",
+                    "title": "工藝核心 / 觸碰北歐設計的靈魂",
+                    "description": "作為丹麥最具代表性的織物品牌，Kvadrat 提供的不僅是面料，更是對質感與永續的堅持。",
+                    "thumbnail": "/images/products/textile_detail.png",
+                    "mainImage": "/images/products/textile_detail.png",
+                    "price": 380,
+                    "originalPrice": 450,
+                    "stock": 50,
+                    "status": 1,
+                    "sales": 240,
+                    "tags": [
+                        "TEXTILE",
+                        "PREMIUM"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "精品羊毛"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W80 x D40 x H120 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/textile_detail.png",
+                        "/images/products/textile_detail.png",
+                        "/images/products/textile_detail.png"
+                    ],
+                    "colors": [
+                        "深胡桃",
+                        "象牙白",
+                        "質感金"
+                    ]
+                },
+                {
+                    "id": 23,
+                    "categoryId": 13,
+                    "categoryName": "座椅系列",
+                    "name": "Enclose 皮革工藝細節",
+                    "title": "沈靜守望 / 皮革與手縫線的溫潤對話",
+                    "description": "本系列採用最頂級的苯染皮，保留了皮革本有的毛細孔與生命力。細緻的雙針縫線工藝，確保長久的承重力與美感。",
+                    "thumbnail": "/images/products/seating/chair_detail.png",
+                    "mainImage": "/images/products/seating/chair_detail.png",
+                    "price": 4200,
+                    "originalPrice": 4200,
+                    "stock": 5,
+                    "status": 1,
+                    "sales": 15,
+                    "tags": [
+                        "LEATHER",
+                        "DETAIL"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "頂級真皮"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W55 x D52 x H78 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/chair_detail.png",
+                        "/images/products/seating/chair_detail.png",
+                        "/images/products/seating/chair_detail.png"
+                    ],
+                    "colors": [
+                        "曜石黑",
+                        "奶油白",
+                        "經典灰"
+                    ]
+                },
+                {
+                    "id": 24,
+                    "categoryId": 51,
+                    "categoryName": "生活家飾",
+                    "name": "Zenith 幾何陶藝組",
+                    "title": "有機量體 / 空間中的沈靜律動",
+                    "description": "一組由三件不同高度的啞光黑陶藝瓶組成，展現了幾何量體與有機對稱的完美平衡，是現代客廳的視覺核心。",
+                    "thumbnail": "/images/products/decor/zenith_vases_full.png",
+                    "mainImage": "/images/products/decor/zenith_vases_full.png",
+                    "price": 650,
+                    "originalPrice": 780,
+                    "stock": 12,
+                    "status": 1,
+                    "sales": 5,
+                    "tags": [
+                        "CERAMIC",
+                        "DECOR"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "陶瓷"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W80 x D40 x H120 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/zenith_vases_full.png",
+                        "/images/products/decor/zenith_vases_full.png",
+                        "/images/products/decor/zenith_vases_full.png"
+                    ],
+                    "colors": [
+                        "深胡桃",
+                        "象牙白",
+                        "質感金"
+                    ]
+                },
+                {
+                    "id": 25,
+                    "categoryId": 51,
+                    "categoryName": "生活家飾",
+                    "name": "Travertine 建築書擋",
+                    "title": "天然洞石 / 質感與重量的視覺對話",
+                    "description": "選用義大利頂級洞石切削而成，保留了岩石天然的孔隙與沈穩分量，為您的書架增添一份建築感的美學。",
+                    "thumbnail": "/images/products/decor/travertine_bookends_full.png",
+                    "mainImage": "/images/products/decor/travertine_bookends_full.png",
+                    "price": 420,
+                    "originalPrice": 420,
+                    "stock": 8,
+                    "status": 1,
+                    "sales": 15,
+                    "tags": [
+                        "STONE",
+                        "ACCESSORY"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "洞石"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W80 x D40 x H120 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/travertine_bookends_full.png",
+                        "/images/products/decor/travertine_bookends_full.png",
+                        "/images/products/decor/travertine_bookends_full.png"
+                    ],
+                    "colors": [
+                        "深胡桃",
+                        "象牙白",
+                        "質感金"
+                    ]
+                },
+                {
+                    "id": 26,
+                    "categoryId": 52,
+                    "categoryName": "生活家飾",
+                    "name": "Bouclé 織品抱枕組",
+                    "title": "圈圈紗觸感 / 居家溫度的起點",
+                    "description": "精選義大利 Bouclé 圈圈紗與天鵝絨面料，為沙發或床鋪增添視覺層次與極致觸感。",
+                    "thumbnail": "/images/generated/premium_textile_cushions.png",
+                    "mainImage": "/images/generated/premium_textile_cushions.png",
+                    "price": 120,
+                    "originalPrice": 150,
+                    "stock": 40,
+                    "status": 1,
+                    "sales": 120,
+                    "tags": [
+                        "TEXTILE",
+                        "DECOR"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "羊毛/天鵝絨"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "50 x 50 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/premium_textile_cushions.png"
+                    ],
+                    "colors": [
+                        "米白",
+                        "赤陶色",
+                        "深灰"
+                    ]
+                },
+                {
+                    "id": 27,
+                    "categoryId": 31,
+                    "categoryName": "燈飾系列",
+                    "name": "Cluster 吊燈組合",
+                    "title": "現代星系 / 煙燻玻璃的層次演繹",
+                    "description": "多盞煙燻玻璃主體高低錯落，如同懸浮的星系。黑霧面金屬支架提供穩固支撐，是餐廳空間的完美主角。",
+                    "thumbnail": "/images/generated/pendant_light_cluster.png",
+                    "mainImage": "/images/generated/pendant_light_cluster.png",
+                    "price": 1580,
+                    "originalPrice": 1800,
+                    "stock": 6,
+                    "status": 1,
+                    "sales": 14,
+                    "tags": [
+                        "PENDANT",
+                        "MODERN"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "玻璃/金屬"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "Ø80 x H120 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/pendant_light_cluster.png"
+                    ],
+                    "colors": [
+                        "煙燻黑"
+                    ]
+                },
+                {
+                    "id": 28,
+                    "categoryId": 52,
+                    "categoryName": "生活家飾",
+                    "name": "Minimalist 幾何地毯",
+                    "title": "空間畫布 / 踩踏間的溫柔觸感",
+                    "description": "大面積的幾何色塊拼接，採用炭灰與奶油白的經典配色。短毛羊毛混紡材質，易於打理且觸感極佳。",
+                    "thumbnail": "/images/generated/minimalist_rug_texture.png",
+                    "mainImage": "/images/generated/minimalist_rug_texture.png",
+                    "price": 650,
+                    "originalPrice": 800,
+                    "stock": 12,
+                    "status": 1,
+                    "sales": 8,
+                    "tags": [
+                        "RUG",
+                        "TEXTILE"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "羊毛混紡"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "200 x 300 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/minimalist_rug_texture.png"
+                    ],
+                    "colors": [
+                        "幾何灰"
+                    ]
+                },
+                {
+                    "id": 29,
+                    "categoryId": 33,
+                    "categoryName": "燈飾系列",
+                    "name": "Horizon 線性線性壁燈",
+                    "title": "間接光學 / 極簡水平線的影之藝術",
+                    "description": "極窄線性設計，透過牆面反射出的梯形光影營造層次，刷深色鉻表面讓其在關燈時也如同一件壁面裝飾品。",
+                    "thumbnail": "/images/products/lighting/horizon_sconce_v2.png",
+                    "mainImage": "/images/products/lighting/horizon_sconce_v2.png",
+                    "price": 980,
+                    "originalPrice": 1100,
+                    "stock": 15,
+                    "status": 1,
+                    "sales": 12,
+                    "tags": [
+                        "WALL_LAMP",
+                        "MINIMAL"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "金屬"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "H160 x Ø35 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/horizon_sconce_v2.png",
+                        "/images/products/lighting/horizon_sconce_v2.png",
+                        "/images/products/lighting/horizon_sconce_v2.png"
+                    ],
+                    "colors": [
+                        "拉絲黃銅",
+                        "磨砂黑",
+                        "噴砂玻璃"
+                    ]
+                },
+                {
+                    "id": 30,
+                    "categoryId": 33,
+                    "categoryName": "壁燈",
+                    "name": "Orbit 懸浮線性壁燈",
+                    "title": "建築美學 / 間接光源的沈靜氛圍",
+                    "description": "Orbit 系列以極簡線性幾何為縮影，搭配消光黑處理與高品質集成 LED，為空間營造高級飯店般的間接光影層次。",
+                    "thumbnail": "/images/products/lighting/orbit.png",
+                    "mainImage": "/images/products/lighting/orbit.png",
+                    "price": 720,
+                    "originalPrice": 850,
+                    "stock": 15,
+                    "status": 1,
+                    "sales": 12,
+                    "tags": [
+                        "MINIMALIST",
+                        "NEW_ARRIVAL"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "消光金屬"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "L120 x W10 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/orbit.png"
+                    ],
+                    "colors": [
+                        "消光黑",
+                        "鈦鋼銀"
+                    ]
+                },
+                {
+                    "id": 31,
+                    "categoryId": 52,
+                    "categoryName": "收納小物",
+                    "name": "Sculpt 實心橡木收納盒",
+                    "title": "有機曲線 / 隱藏式磁吸細節",
+                    "description": "Sculpt 系列收納盒由一整塊實心白橡木切削而成，極具雕塑感的流線造型與細膩的手感，是梳妝台上的高級藝術品。",
+                    "thumbnail": "/images/products/decor/sculpt.png",
+                    "mainImage": "/images/products/decor/sculpt.png",
+                    "price": 280,
+                    "originalPrice": 340,
+                    "stock": 25,
+                    "status": 1,
+                    "sales": 45,
+                    "tags": [
+                        "SOLID_WOOD",
+                        "HANDMADE"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "白橡木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W22 x D10 x H8 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/sculpt.png"
+                    ],
+                    "colors": [
+                        "天然橡木",
+                        "焦糖色"
+                    ]
+                },
+                {
+                    "id": 32,
+                    "categoryId": 22,
+                    "categoryName": "邊幾",
+                    "name": "Monolith 建築感邊幾",
+                    "title": "不鏽鋼拉絲 / 銳利與極簡的交織",
+                    "description": "Monolith 邊幾展現了純粹的幾何張力。採用實心不鏽鋼拉絲工藝，倒斜角設計增強了視覺的輕盈感與雕塑性。",
+                    "thumbnail": "/images/products/tables/monolith.png",
+                    "mainImage": "/images/products/tables/monolith.png",
+                    "price": 1100,
+                    "originalPrice": 1350,
+                    "stock": 8,
+                    "status": 1,
+                    "sales": 5,
+                    "tags": [
+                        "METAL_CRAFT",
+                        "ARCHITECTURAL"
+                    ],
+                    "isNew": false,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "不鏽鋼"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "W40 x D40 x H42 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/tables/monolith.png"
+                    ],
+                    "colors": [
+                        "拉絲鋼",
+                        "啞光黑"
+                    ]
+                },
+                {
+                    "id": 33,
+                    "categoryId": 53,
+                    "categoryName": "精選織物",
+                    "name": "Cloud 頂級羊絨蓋毯",
+                    "title": "100% Cashmere / 雲端般的親膚觸感",
+                    "description": "選用一等級羊絨手工編織，具備極佳的保暖性與如空氣般的輕盈感。精緻的鎖邊工藝展現出低調的奢華。",
+                    "thumbnail": "/images/products/decor/cloud.png",
+                    "mainImage": "/images/products/decor/cloud.png",
+                    "price": 540,
+                    "originalPrice": 680,
+                    "stock": 20,
+                    "status": 1,
+                    "sales": 88,
+                    "tags": [
+                        "PREMIUM_FABRIC",
+                        "ESSENTIAL"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "羊絨"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "150 x 200 cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/cloud.png"
+                    ],
+                    "colors": [
+                        "炭灰色",
+                        "奶油白"
+                    ]
+                },
+                {
+                    "id": 34,
+                    "categoryId": 12,
+                    "categoryName": "經典單椅",
+                    "name": "Arc 曲線實木椅",
+                    "title": "蒸氣彎曲工藝 / 優雅的背部曲線",
+                    "description": "Arc 椅展現了實木加工的極致技術。透過蒸氣彎曲工藝，創造出無縫且具備支撐力的背部線條。",
+                    "thumbnail": "/images/products/seating/arc_chair.png",
+                    "mainImage": "/images/products/seating/arc_chair.png",
+                    "price": 920,
+                    "originalPrice": 1200,
+                    "stock": 10,
+                    "status": 1,
+                    "sales": 5,
+                    "tags": [
+                        "SOLID_WOOD",
+                        "NEW_ARRIVAL"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "白蠟木"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/arc_chair.png"
+                    ],
+                    "colors": [
+                        "原木色",
+                        "消光黑"
+                    ]
+                },
+                {
+                    "id": 35,
+                    "categoryId": 21,
+                    "categoryName": "餐桌",
+                    "name": "Essence 實木長餐桌",
+                    "title": "4 米無縫視覺 / 沈穩的空間核心",
+                    "description": "Essence 長餐桌專為寬敞的用餐空間設計。純粹的矩陣式結構與高品質橡木，傳達出一份建築式的永恆感。",
+                    "thumbnail": "/images/products/tables/essence_table.png",
+                    "mainImage": "/images/products/tables/essence_table.png",
+                    "price": 3800,
+                    "originalPrice": 4500,
+                    "stock": 3,
+                    "status": 1,
+                    "sales": 2,
+                    "tags": [
+                        "SOLID_WOOD",
+                        "PREMIUM"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "橡木"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/tables/essence_table.png"
+                    ],
+                    "colors": [
+                        "天然橡木色",
+                        "深胡桃色"
+                    ]
+                },
+                {
+                    "id": 36,
+                    "categoryId": 22,
+                    "categoryName": "邊幾",
+                    "name": "Prism 幾何玻璃邊幾",
+                    "title": "光影折射 / 晶瑩剔透的建築量體",
+                    "description": "Prism 邊幾採用超厚多層強化玻璃組成。在不同光線角度下，會產生如稜鏡般的細微彩虹折射。",
+                    "thumbnail": "/images/products/tables/prism_table.png",
+                    "mainImage": "/images/products/tables/prism_table.png",
+                    "price": 680,
+                    "originalPrice": 850,
+                    "stock": 12,
+                    "status": 1,
+                    "sales": 8,
+                    "tags": [
+                        "GLASS_ART",
+                        "MINIMALIST"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "超白玻璃"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/tables/prism_table.png"
+                    ],
+                    "colors": [
+                        "全透明",
+                        "煙燻灰"
+                    ]
+                },
+                {
+                    "id": 37,
+                    "categoryId": 31,
+                    "categoryName": "吊燈",
+                    "name": "Stellar 圓環設計吊燈",
+                    "title": "星環光影 / 360 度無縫發光體",
+                    "description": "Stellar 吊燈由拉絲香檳金鋁材製成。內嵌式高性能 LED 提供柔和且均勻的環形照明。",
+                    "thumbnail": "/images/products/lighting/stellar_light.png",
+                    "mainImage": "/images/products/lighting/stellar_light.png",
+                    "price": 1450,
+                    "originalPrice": 1800,
+                    "stock": 6,
+                    "status": 1,
+                    "sales": 15,
+                    "tags": [
+                        "MODERN_LIGHT",
+                        "ICONIC"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "鋁合金/黃銅"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/stellar_light.png"
+                    ],
+                    "colors": [
+                        "香檳金",
+                        "磨砂黑"
+                    ]
+                },
+                {
+                    "id": 38,
+                    "categoryId": 23,
+                    "categoryName": "咖啡桌",
+                    "name": "Nexus 圓形大理石咖啡桌",
+                    "title": "雙層懸浮 / 大理石與金屬的重力對話",
+                    "description": "Nexus 咖啡桌以其獨特的雙層結構聞名。上層的大理石桌面與下層的金屬底盤形成完美的力學平衡。",
+                    "thumbnail": "/images/products/tables/nexus_table.png",
+                    "mainImage": "/images/products/tables/nexus_table.png",
+                    "price": 2200,
+                    "originalPrice": 2600,
+                    "stock": 5,
+                    "status": 1,
+                    "sales": 9,
+                    "tags": [
+                        "MARBLE",
+                        "LUXURY"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "卡拉拉大理石"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/tables/nexus_table.png"
+                    ],
+                    "colors": [
+                        "卡拉拉白",
+                        "黑雲石"
+                    ]
+                },
+                {
+                    "id": 39,
+                    "categoryId": 33,
+                    "categoryName": "壁燈",
+                    "name": "Luna 圓月氛圍壁燈",
+                    "title": "月相傳世 / 柔和的石紋透光美學",
+                    "description": "Luna 壁燈模擬月食的光暈效果。透光石紋玻璃在背光照射下，展現出如月球表面般的細膩紋理。",
+                    "thumbnail": "/images/products/lighting/luna_light.png",
+                    "mainImage": "/images/products/lighting/luna_light.png",
+                    "price": 580,
+                    "originalPrice": 720,
+                    "stock": 18,
+                    "status": 1,
+                    "sales": 22,
+                    "tags": [
+                        "ATMOSPHERE",
+                        "ART"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "透光玻璃/金屬"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/luna_light.png"
+                    ],
+                    "colors": [
+                        "月岩灰",
+                        "晨曦金"
+                    ]
+                },
+                {
+                    "id": 40,
+                    "categoryId": 52,
+                    "categoryName": "收納小物",
+                    "name": "Grid 桌面金屬收納架",
+                    "title": "數位秩序 / 包浩斯幾何格點",
+                    "description": "Grid 系列以極其精準的雷射切割工藝打造。為您的桌面提供最純粹的幾何秩序感。",
+                    "thumbnail": "/images/products/decor/grid_organizer.png",
+                    "mainImage": "/images/products/decor/grid_organizer.png",
+                    "price": 180,
+                    "originalPrice": 240,
+                    "stock": 35,
+                    "status": 1,
+                    "sales": 56,
+                    "tags": [
+                        "BAUHAUS",
+                        "STATIONERY"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "消光鋼材"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/grid_organizer.png"
+                    ],
+                    "colors": [
+                        "消光黑",
+                        "鈦銀色"
+                    ]
+                },
+                {
+                    "id": 41,
+                    "categoryId": 53,
+                    "categoryName": "精選織物",
+                    "name": "Peak 羊毛針織靠枕",
+                    "title": "粗織紋理 / 溫潤舒適的觸覺記憶",
+                    "description": "由頂級紐西蘭羊毛粗織而成。其獨特的立體織紋能為簡約的沙發增添溫暖的視覺層次。",
+                    "thumbnail": "/images/products/decor/peak_cushion.png",
+                    "mainImage": "/images/products/decor/peak_cushion.png",
+                    "price": 220,
+                    "originalPrice": 320,
+                    "stock": 50,
+                    "status": 1,
+                    "sales": 120,
+                    "tags": [
+                        "WOOL",
+                        "SOFT"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "100% 羊毛"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/peak_cushion.png"
+                    ],
+                    "colors": [
+                        "米白",
+                        "燕麥色"
+                    ]
+                },
+                {
+                    "id": 42,
+                    "categoryId": 33,
+                    "categoryName": "壁燈",
+                    "name": "Eclipse 磁吸式轉動壁燈",
+                    "title": "光影之蝕 / 可調節的間接光源",
+                    "description": "Eclipse 壁燈由兩個重疊的圓盤組成。上層磁吸盤可隨意轉動，自由調整陰影與光亮分佈。",
+                    "thumbnail": "/images/products/lighting/eclipse.png",
+                    "mainImage": "/images/products/lighting/eclipse.png",
+                    "price": 450,
+                    "originalPrice": 580,
+                    "stock": 20,
+                    "status": 1,
+                    "sales": 34,
+                    "tags": [
+                        "INTERACTIVE",
+                        "MINIMALIST"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "碳素鋼"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/eclipse.png"
+                    ],
+                    "colors": [
+                        "消光黑",
+                        "沙礫灰"
+                    ]
+                },
+                {
+                    "id": 43,
+                    "categoryId": 52,
+                    "categoryName": "收納小物",
+                    "name": "Vault 鋁製文件匣",
+                    "title": "建築量體 / 拉絲鋁材的極致俐落",
+                    "description": "Vault 文件匣以航空級鋁材一體成型。無縫的圓角曲線與拉絲質感，是現代辦公空間的首選。",
+                    "thumbnail": "/images/products/decor/vault.png",
+                    "mainImage": "/images/products/decor/vault.png",
+                    "price": 320,
+                    "originalPrice": 450,
+                    "stock": 15,
+                    "status": 1,
+                    "sales": 18,
+                    "tags": [
+                        "ALUMINUM",
+                        "PREMIUM"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "拉絲鋁材"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/vault.png"
+                    ],
+                    "colors": [
+                        "原鋁色",
+                        "太空灰"
+                    ]
+                },
+                {
+                    "id": 44,
+                    "categoryId": 53,
+                    "categoryName": "精選織物",
+                    "name": "Velvet 絲絨靠墊",
+                    "title": "莫蘭迪色系 / 絲滑柔順的奢華光澤",
+                    "description": "採用高品質絲絨面料，表面帶有細微光澤。莫蘭迪色系的沈穩質感，能完美適配各種風格沙發。",
+                    "thumbnail": "/images/products/decor/velvet.png",
+                    "mainImage": "/images/products/decor/velvet.png",
+                    "price": 160,
+                    "originalPrice": 220,
+                    "stock": 40,
+                    "status": 1,
+                    "sales": 95,
+                    "tags": [
+                        "VELVET",
+                        "CHIC"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "高級絲絨"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/velvet.png"
+                    ],
+                    "colors": [
+                        "蘇丹綠",
+                        "豆沙色"
+                    ]
+                },
+                {
+                    "id": 45,
+                    "categoryId": 31,
+                    "categoryName": "吊燈",
+                    "name": "Cascade 多頭玻璃吊燈",
+                    "title": "水滴序列 / 靈動剔透的垂墜美學",
+                    "description": "Cascade 吊燈由三個吹製玻璃球組成。琥珀色的漸變玻璃與錯落的垂掛，為餐桌營造浪漫光影。",
+                    "thumbnail": "/images/products/lighting/cascade.png",
+                    "mainImage": "/images/products/lighting/cascade.png",
+                    "price": 1100,
+                    "originalPrice": 1450,
+                    "stock": 10,
+                    "status": 1,
+                    "sales": 7,
+                    "tags": [
+                        "GLASS",
+                        "ELEGANT"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "手工玻璃/黑鋼線"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/cascade.png"
+                    ],
+                    "colors": [
+                        "琥珀色",
+                        "清透白"
+                    ]
+                },
+                {
+                    "id": 46,
+                    "categoryId": 12,
+                    "categoryName": "經典單椅",
+                    "name": "Nordic Ash 實木單椅",
+                    "title": "北歐白蠟木 / 極致純粹的木作美學",
+                    "description": "以北歐極簡主義為靈感，選用頂級白蠟木手工打造。流暢的扶手曲線與細膩的木紋，為您的用餐環境帶來溫潤觸感。",
+                    "thumbnail": "/images/products/seating/nordic_ash_chair.png",
+                    "mainImage": "/images/products/seating/nordic_ash_chair.png",
+                    "price": 920,
+                    "originalPrice": 1200,
+                    "stock": 15,
+                    "status": 1,
+                    "sales": 32,
+                    "tags": [
+                        "ASH_WOOD",
+                        "NORDIC"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "白蠟木"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/nordic_ash_chair.png"
+                    ],
+                    "colors": [
+                        "原木色",
+                        "水洗白"
+                    ]
+                },
+                {
+                    "id": 47,
+                    "categoryId": 13,
+                    "categoryName": "休閒躺椅",
+                    "name": "Forest Velvet 絲絨休閒椅",
+                    "title": "森林綠絲絨 / 沈靜優雅的空間焦點",
+                    "description": "深森林綠色的頂級絲絨面料，搭配雕塑感十足的纖細金屬椅腳。不僅具備極致的坐感，更是客廳中不可忽視的藝術品。",
+                    "thumbnail": "/images/products/seating/velvet_lounge_chair.png",
+                    "mainImage": "/images/products/seating/velvet_lounge_chair.png",
+                    "price": 1850,
+                    "originalPrice": 2400,
+                    "stock": 8,
+                    "status": 1,
+                    "sales": 14,
+                    "tags": [
+                        "VELVET",
+                        "SCULPTURAL"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "高級絲絨/金屬"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/velvet_lounge_chair.png"
+                    ],
+                    "colors": [
+                        "森林綠",
+                        "深夜藍"
+                    ]
+                },
+                {
+                    "id": 48,
+                    "categoryId": 21,
+                    "categoryName": "餐桌",
+                    "name": "Modern Marble 建築感餐桌",
+                    "title": "線性鋼架 / 大理石與重力的美學演繹",
+                    "description": "幾何交叉的鋼製底座，頂著一整塊精選卡拉拉大理石。這款桌子展現了現代建築的結構美與天然石材的壯麗。",
+                    "thumbnail": "/images/products/tables/marble_dining_table.png",
+                    "mainImage": "/images/products/tables/marble_dining_table.png",
+                    "price": 4200,
+                    "originalPrice": 5600,
+                    "stock": 5,
+                    "status": 1,
+                    "sales": 3,
+                    "tags": [
+                        "MARBLE",
+                        "ARCHITECTURAL"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "卡拉拉大理石/鋼材"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/tables/marble_dining_table.png"
+                    ],
+                    "colors": [
+                        "雪花白",
+                        "銀河黑"
+                    ]
+                },
+                {
+                    "id": 49,
+                    "categoryId": 31,
+                    "categoryName": "吊燈",
+                    "name": "Modern Pillar 黃銅吊燈",
+                    "title": "黃銅拉絲 / 極簡管狀的光影魅力",
+                    "description": "簡潔的管狀黃銅主體搭配磨砂玻璃球，散發出溫暖且均勻的照明。適合多個並排使用於中島或吧台上方。",
+                    "thumbnail": "/images/products/lighting/modern_pendant_light.png",
+                    "mainImage": "/images/products/lighting/modern_pendant_light.png",
+                    "price": 780,
+                    "originalPrice": 950,
+                    "stock": 20,
+                    "status": 1,
+                    "sales": 45,
+                    "tags": [
+                        "BRASS",
+                        "MINIMALIST"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "黃銅/磨砂玻璃"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/modern_pendant_light.png"
+                    ],
+                    "colors": [
+                        "拉絲黃銅",
+                        "石墨黑"
+                    ]
+                },
+                {
+                    "id": 50,
+                    "categoryId": 52,
+                    "categoryName": "收納小物",
+                    "name": "Walnut Grain 收納矮櫃",
+                    "title": "胡桃木紋 / 沈穩低調的收納藝術",
+                    "description": "精選深色胡桃木皮，搭配無把手按壓式設計，保持立面的極致純粹。大容量收納空間，為您的居家環境維持整潔。",
+                    "thumbnail": "/images/products/decor/minimalist_wooden_cabinet.png",
+                    "mainImage": "/images/products/decor/minimalist_wooden_cabinet.png",
+                    "price": 1450,
+                    "originalPrice": 1900,
+                    "stock": 10,
+                    "status": 1,
+                    "sales": 21,
+                    "tags": [
+                        "WALNUT",
+                        "STORAGE"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "胡桃木/MDF"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/minimalist_wooden_cabinet.png"
+                    ],
+                    "colors": [
+                        "深胡桃色",
+                        "焦糖木色"
+                    ]
+                },
+                {
+                    "id": 51,
+                    "categoryId": 13,
+                    "categoryName": "座椅系列",
+                    "name": "Campaign Designer Collab",
+                    "title": "Campaign Designer Collab - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Campaign Designer Collab 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/generated/campaign_designer_collab.png",
+                    "mainImage": "/images/generated/campaign_designer_collab.png",
+                    "price": 3684,
+                    "originalPrice": 4420,
+                    "stock": 17,
+                    "status": 1,
+                    "sales": 12,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "織物, 皮革"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "標準, 加大"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/campaign_designer_collab.png"
+                    ],
+                    "colors": [
+                        "大象灰",
+                        "經典灰",
+                        "曜石黑"
+                    ]
+                },
+                {
+                    "id": 52,
+                    "categoryId": 22,
+                    "categoryName": "桌幾系列",
+                    "name": "Campaign Spring Lighting",
+                    "title": "Campaign Spring Lighting - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Campaign Spring Lighting 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/generated/campaign_spring_lighting.png",
+                    "mainImage": "/images/generated/campaign_spring_lighting.png",
+                    "price": 3175,
+                    "originalPrice": 3810,
+                    "stock": 42,
+                    "status": 1,
+                    "sales": 32,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "橡木, 胡桃木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "120cm, 160cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/campaign_spring_lighting.png"
+                    ],
+                    "colors": [
+                        "海軍藍",
+                        "大象灰"
+                    ]
+                },
+                {
+                    "id": 53,
+                    "categoryId": 52,
+                    "categoryName": "生活家飾",
+                    "name": "Campaign Winter Home",
+                    "title": "Campaign Winter Home - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Campaign Winter Home 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/generated/campaign_winter_home.png",
+                    "mainImage": "/images/generated/campaign_winter_home.png",
+                    "price": 3578,
+                    "originalPrice": 4293,
+                    "stock": 47,
+                    "status": 1,
+                    "sales": 32,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "規格",
+                            "attrValue": "標準版, 豪華版"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/campaign_winter_home.png"
+                    ],
+                    "colors": [
+                        "經典灰",
+                        "胡桃木色"
+                    ]
+                },
+                {
+                    "id": 54,
+                    "categoryId": 22,
+                    "categoryName": "桌幾系列",
+                    "name": "Minimalist Wall Sconce",
+                    "title": "Minimalist Wall Sconce - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Minimalist Wall Sconce 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/generated/minimalist_wall_sconce.png",
+                    "mainImage": "/images/generated/minimalist_wall_sconce.png",
+                    "price": 3598,
+                    "originalPrice": 4317,
+                    "stock": 16,
+                    "status": 1,
+                    "sales": 24,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "橡木, 胡桃木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "120cm, 160cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/minimalist_wall_sconce.png"
+                    ],
+                    "colors": [
+                        "大象灰",
+                        "墨綠"
+                    ]
+                },
+                {
+                    "id": 55,
+                    "categoryId": 32,
+                    "categoryName": "燈飾系列",
+                    "name": "Walnut Sideboard",
+                    "title": "Walnut Sideboard - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Walnut Sideboard 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/generated/walnut_sideboard.png",
+                    "mainImage": "/images/generated/walnut_sideboard.png",
+                    "price": 1434,
+                    "originalPrice": 1720,
+                    "stock": 6,
+                    "status": 1,
+                    "sales": 19,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "規格",
+                            "attrValue": "標準版, 豪華版"
+                        }
+                    ],
+                    "images": [
+                        "/images/generated/walnut_sideboard.png"
+                    ],
+                    "colors": [
+                        "經典灰",
+                        "海軍藍",
+                        "胡桃木色",
+                        "墨綠"
+                    ]
+                },
+                {
+                    "id": 56,
+                    "categoryId": 52,
+                    "categoryName": "生活家飾",
+                    "name": "Artisan Bronze Bowl Full",
+                    "title": "Artisan Bronze Bowl Full - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Artisan Bronze Bowl Full 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/decor/artisan_bronze_bowl_full.png",
+                    "mainImage": "/images/products/decor/artisan_bronze_bowl_full.png",
+                    "price": 2506,
+                    "originalPrice": 3007,
+                    "stock": 19,
+                    "status": 1,
+                    "sales": 24,
+                    "tags": [
+                        "NEW"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "規格",
+                            "attrValue": "標準版, 豪華版"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/decor/artisan_bronze_bowl_full.png"
+                    ],
+                    "colors": [
+                        "海軍藍",
+                        "曜石黑",
+                        "墨綠",
+                        "胡桃木色"
+                    ]
+                },
+                {
+                    "id": 57,
+                    "categoryId": 22,
+                    "categoryName": "桌幾系列",
+                    "name": "Designer Lamp Full",
+                    "title": "Designer Lamp Full - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Designer Lamp Full 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/lighting/designer_lamp_full.png",
+                    "mainImage": "/images/products/lighting/designer_lamp_full.png",
+                    "price": 2646,
+                    "originalPrice": 3175,
+                    "stock": 21,
+                    "status": 1,
+                    "sales": 14,
+                    "tags": [
+                        "NEW"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "橡木, 胡桃木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "120cm, 160cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/designer_lamp_full.png"
+                    ],
+                    "colors": [
+                        "經典灰",
+                        "海軍藍",
+                        "大象灰"
+                    ]
+                },
+                {
+                    "id": 58,
+                    "categoryId": 13,
+                    "categoryName": "座椅系列",
+                    "name": "Glass Glow Lamp Full",
+                    "title": "Glass Glow Lamp Full - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Glass Glow Lamp Full 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/lighting/glass_glow_lamp_full.png",
+                    "mainImage": "/images/products/lighting/glass_glow_lamp_full.png",
+                    "price": 1942,
+                    "originalPrice": 2330,
+                    "stock": 6,
+                    "status": 1,
+                    "sales": 13,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "織物, 皮革"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "標準, 加大"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/glass_glow_lamp_full.png"
+                    ],
+                    "colors": [
+                        "海軍藍",
+                        "經典灰",
+                        "曜石黑"
+                    ]
+                },
+                {
+                    "id": 59,
+                    "categoryId": 12,
+                    "categoryName": "座椅系列",
+                    "name": "Lunar Pendant Full",
+                    "title": "Lunar Pendant Full - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Lunar Pendant Full 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/lighting/lunar_pendant_full.png",
+                    "mainImage": "/images/products/lighting/lunar_pendant_full.png",
+                    "price": 3356,
+                    "originalPrice": 4027,
+                    "stock": 25,
+                    "status": 1,
+                    "sales": 29,
+                    "tags": [
+                        "NEW"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "織物, 皮革"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "標準, 加大"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/lunar_pendant_full.png"
+                    ],
+                    "colors": [
+                        "大象灰",
+                        "墨綠",
+                        "經典灰"
+                    ]
+                },
+                {
+                    "id": 60,
+                    "categoryId": 21,
+                    "categoryName": "桌幾系列",
+                    "name": "Monument Lamp V2",
+                    "title": "Monument Lamp V2 - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Monument Lamp V2 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/lighting/monument_lamp_v2.png",
+                    "mainImage": "/images/products/lighting/monument_lamp_v2.png",
+                    "price": 1671,
+                    "originalPrice": 2005,
+                    "stock": 42,
+                    "status": 1,
+                    "sales": 25,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "橡木, 胡桃木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "120cm, 160cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/lighting/monument_lamp_v2.png"
+                    ],
+                    "colors": [
+                        "曜石黑",
+                        "胡桃木色",
+                        "海軍藍",
+                        "奶油白"
+                    ]
+                },
+                {
+                    "id": 61,
+                    "categoryId": 13,
+                    "categoryName": "座椅系列",
+                    "name": "Classic Sofa Full",
+                    "title": "Classic Sofa Full - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Classic Sofa Full 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/seating/classic_sofa_full.png",
+                    "mainImage": "/images/products/seating/classic_sofa_full.png",
+                    "price": 4283,
+                    "originalPrice": 5139,
+                    "stock": 15,
+                    "status": 1,
+                    "sales": 0,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "織物, 皮革"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "標準, 加大"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/classic_sofa_full.png"
+                    ],
+                    "colors": [
+                        "奶油白",
+                        "經典灰",
+                        "胡桃木色"
+                    ]
+                },
+                {
+                    "id": 62,
+                    "categoryId": 12,
+                    "categoryName": "座椅系列",
+                    "name": "Daybed Full",
+                    "title": "Daybed Full - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Daybed Full 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/seating/daybed_full.png",
+                    "mainImage": "/images/products/seating/daybed_full.png",
+                    "price": 2140,
+                    "originalPrice": 2568,
+                    "stock": 47,
+                    "status": 1,
+                    "sales": 50,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "織物, 皮革"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "標準, 加大"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/daybed_full.png"
+                    ],
+                    "colors": [
+                        "曜石黑",
+                        "海軍藍",
+                        "胡桃木色"
+                    ]
+                },
+                {
+                    "id": 63,
+                    "categoryId": 13,
+                    "categoryName": "座椅系列",
+                    "name": "Lounge Sofa Full",
+                    "title": "Lounge Sofa Full - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Lounge Sofa Full 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/seating/lounge_sofa_full.png",
+                    "mainImage": "/images/products/seating/lounge_sofa_full.png",
+                    "price": 2877,
+                    "originalPrice": 3452,
+                    "stock": 14,
+                    "status": 1,
+                    "sales": 34,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "織物, 皮革"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "標準, 加大"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/lounge_sofa_full.png"
+                    ],
+                    "colors": [
+                        "墨綠",
+                        "胡桃木色"
+                    ]
+                },
+                {
+                    "id": 64,
+                    "categoryId": 31,
+                    "categoryName": "燈飾系列",
+                    "name": "Modular Sofa Heavy",
+                    "title": "Modular Sofa Heavy - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Modular Sofa Heavy 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/seating/modular_sofa_heavy.png",
+                    "mainImage": "/images/products/seating/modular_sofa_heavy.png",
+                    "price": 2690,
+                    "originalPrice": 3228,
+                    "stock": 12,
+                    "status": 1,
+                    "sales": 28,
+                    "tags": [
+                        "NEW"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "規格",
+                            "attrValue": "標準版, 豪華版"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/modular_sofa_heavy.png"
+                    ],
+                    "colors": [
+                        "胡桃木色",
+                        "經典灰"
+                    ]
+                },
+                {
+                    "id": 65,
+                    "categoryId": 11,
+                    "categoryName": "座椅系列",
+                    "name": "Pacha Lounge Full",
+                    "title": "Pacha Lounge Full - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Pacha Lounge Full 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/seating/pacha_lounge_full.png",
+                    "mainImage": "/images/products/seating/pacha_lounge_full.png",
+                    "price": 3017,
+                    "originalPrice": 3620,
+                    "stock": 49,
+                    "status": 1,
+                    "sales": 50,
+                    "tags": [
+                        "NEW"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "織物, 皮革"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "標準, 加大"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/pacha_lounge_full.png"
+                    ],
+                    "colors": [
+                        "墨綠",
+                        "奶油白",
+                        "海軍藍"
+                    ]
+                },
+                {
+                    "id": 66,
+                    "categoryId": 22,
+                    "categoryName": "桌幾系列",
+                    "name": "Premium Lounge Chair",
+                    "title": "Premium Lounge Chair - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Premium Lounge Chair 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/seating/premium_lounge_chair.png",
+                    "mainImage": "/images/products/seating/premium_lounge_chair.png",
+                    "price": 2646,
+                    "originalPrice": 3175,
+                    "stock": 28,
+                    "status": 1,
+                    "sales": 28,
+                    "tags": [
+                        "NEW"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "橡木, 胡桃木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "120cm, 160cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/premium_lounge_chair.png"
+                    ],
+                    "colors": [
+                        "海軍藍",
+                        "墨綠",
+                        "奶油白",
+                        "曜石黑"
+                    ]
+                },
+                {
+                    "id": 67,
+                    "categoryId": 23,
+                    "categoryName": "桌幾系列",
+                    "name": "Rey Chair Full",
+                    "title": "Rey Chair Full - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Rey Chair Full 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/seating/rey_chair_full.png",
+                    "mainImage": "/images/products/seating/rey_chair_full.png",
+                    "price": 1416,
+                    "originalPrice": 1699,
+                    "stock": 31,
+                    "status": 1,
+                    "sales": 26,
+                    "tags": [
+                        "NEW"
+                    ],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "橡木, 胡桃木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "120cm, 160cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/seating/rey_chair_full.png"
+                    ],
+                    "colors": [
+                        "墨綠",
+                        "奶油白",
+                        "大象灰",
+                        "經典灰"
+                    ]
+                },
+                {
+                    "id": 68,
+                    "categoryId": 23,
+                    "categoryName": "桌幾系列",
+                    "name": "Architectural Table Full",
+                    "title": "Architectural Table Full - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Architectural Table Full 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/tables/architectural_table_full.png",
+                    "mainImage": "/images/products/tables/architectural_table_full.png",
+                    "price": 4593,
+                    "originalPrice": 5511,
+                    "stock": 13,
+                    "status": 1,
+                    "sales": 15,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "材質",
+                            "attrValue": "橡木, 胡桃木"
+                        },
+                        {
+                            "attrId": 2,
+                            "attrName": "尺寸",
+                            "attrValue": "120cm, 160cm"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/tables/architectural_table_full.png"
+                    ],
+                    "colors": [
+                        "胡桃木色",
+                        "曜石黑",
+                        "海軍藍",
+                        "大象灰"
+                    ]
+                },
+                {
+                    "id": 69,
+                    "categoryId": 31,
+                    "categoryName": "燈飾系列",
+                    "name": "Side Table Full",
+                    "title": "Side Table Full - 限量系列",
+                    "description": "Nameless Mall 獨家選品。Side Table Full 展現了極致的工藝與現代美學，是提升居家空間質感的絕佳選擇。",
+                    "thumbnail": "/images/products/tables/side_table_full.png",
+                    "mainImage": "/images/products/tables/side_table_full.png",
+                    "price": 999,
+                    "originalPrice": 1198,
+                    "stock": 8,
+                    "status": 1,
+                    "sales": 14,
+                    "tags": [],
+                    "isNew": true,
+                    "attrs": [
+                        {
+                            "attrId": 1,
+                            "attrName": "規格",
+                            "attrValue": "標準版, 豪華版"
+                        }
+                    ],
+                    "images": [
+                        "/images/products/tables/side_table_full.png"
+                    ],
+                    "colors": [
+                        "奶油白",
+                        "經典灰",
+                        "墨綠",
+                        "大象灰"
+                    ]
+                }
+            ],
+            "totalElements": 50,
+            "size": 9,
+            "number": 0
+        },
+        "total": 50,
+        "totalPages": 6,
+        "facets": {
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "座椅系列",
+                    "count": 12
+                },
+                {
+                    "id": 11,
+                    "name": "沙發系列",
+                    "count": 3
+                },
+                {
+                    "id": 12,
+                    "name": "經典單椅",
+                    "count": 7
+                },
+                {
+                    "id": 13,
+                    "name": "休閒躺椅",
+                    "count": 4
+                },
+                {
+                    "id": 2,
+                    "name": "桌幾系列",
+                    "count": 9
+                },
+                {
+                    "id": 21,
+                    "name": "餐桌",
+                    "count": 4
+                },
+                {
+                    "id": 22,
+                    "name": "邊幾",
+                    "count": 3
+                },
+                {
+                    "id": 23,
+                    "name": "咖啡桌",
+                    "count": 3
+                },
+                {
+                    "id": 3,
+                    "name": "燈飾系列",
+                    "count": 12
+                },
+                {
+                    "id": 31,
+                    "name": "吊燈",
+                    "count": 7
+                },
+                {
+                    "id": 32,
+                    "name": "檯燈",
+                    "count": 3
+                },
+                {
+                    "id": 33,
+                    "name": "壁燈",
+                    "count": 3
+                },
+                {
+                    "id": 5,
+                    "name": "生活家飾",
+                    "count": 12
+                },
+                {
+                    "id": 51,
+                    "name": "花瓶/裝飾",
+                    "count": 3
+                },
+                {
+                    "id": 52,
+                    "name": "收納小物",
+                    "count": 7
+                },
+                {
+                    "id": 53,
+                    "name": "精選織物",
+                    "count": 3
+                }
+            ],
+            "attributes": [
+                {
+                    "attrId": 1,
+                    "attrName": "材質",
+                    "attrValues": [
+                        {
+                            "value": "橡木",
+                            "count": 2
+                        },
+                        {
+                            "value": "圈圈紗布料",
+                            "count": 1
+                        },
+                        {
+                            "value": "織物",
+                            "count": 2
+                        },
+                        {
+                            "value": "羊毛織物",
+                            "count": 1
+                        },
+                        {
+                            "value": "天鵝絨",
+                            "count": 1
+                        },
+                        {
+                            "value": "真皮",
+                            "count": 1
+                        },
+                        {
+                            "value": "大理石",
+                            "count": 1
+                        },
+                        {
+                            "value": "胡桃木",
+                            "count": 2
+                        },
+                        {
+                            "value": "黃銅",
+                            "count": 2
+                        },
+                        {
+                            "value": "鋼材",
+                            "count": 1
+                        },
+                        {
+                            "value": "金屬",
+                            "count": 2
+                        },
+                        {
+                            "value": "玻璃",
+                            "count": 2
+                        },
+                        {
+                            "value": "Kvadrat 織物",
+                            "count": 1
+                        },
+                        {
+                            "value": "櫸木",
+                            "count": 1
+                        },
+                        {
+                            "value": "羊毛面料",
+                            "count": 1
+                        },
+                        {
+                            "value": "白蠟木",
+                            "count": 1
+                        },
+                        {
+                            "value": "卡拉拉大理石",
+                            "count": 1
+                        },
+                        {
+                            "value": "精品羊毛",
+                            "count": 1
+                        },
+                        {
+                            "value": "頂級真皮",
+                            "count": 1
+                        },
+                        {
+                            "value": "陶瓷",
+                            "count": 1
+                        },
+                        {
+                            "value": "洞石",
+                            "count": 1
+                        },
+                        {
+                            "value": "青銅",
+                            "count": 1
+                        },
+                        {
+                            "value": "大理石/黃銅",
+                            "count": 1
+                        }
+                    ]
+                }
+            ],
+            "priceStatistics": {
+                "min": 320,
+                "max": 8200
+            }
+        }
+    }
+}
