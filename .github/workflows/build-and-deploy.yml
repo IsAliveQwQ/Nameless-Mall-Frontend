@@ -18,6 +18,7 @@ on:
       - 'shared/**'
       - 'public/**'
       - 'package.json'
+      - 'package-lock.json'
       - 'next.config.mjs'
       - 'tailwind.config.ts'
       - 'Dockerfile'
