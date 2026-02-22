@@ -7,6 +7,7 @@ import { toast } from 'sonner';
 import { Loader2, CheckCircle2, XCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { orderApi } from '@/features/order/api/order-api';
 
 export const dynamic = 'force-dynamic';
 
@@ -30,13 +31,30 @@ function CallbackContent() {
             if (params.transactionId) {
                 try {
                     await paymentApi.processCallback('linepay', params);
-                    setStatus('success');
-                    setMessage('LINE Pay 支付成功！');
+                    setStatus('loading');
+                    setMessage('同步系統狀態中...');
                     const paymentSn = params.paymentSn || params.orderId;
                     if (paymentSn) {
-                        const payment = await paymentApi.getDetail(paymentSn);
+                        const payment = await paymentApi.getDetail(paymentSn, { t: Date.now() });
+
+                        // 輪詢訂單狀態，等待 MQ 同步 (0 = PENDING_PAYMENT)
+                        for (let i = 0; i < 10; i++) {
+                            if (isCancelled) return;
+                            try {
+                                const orderStatus = await orderApi.getStatus(payment.orderSn, { t: Date.now() });
+                                if (orderStatus.status !== 0) break;
+                            } catch (e) {
+                                console.warn('Order status sync wait:', e);
+                            }
+                            await new Promise(r => setTimeout(r, 1000));
+                        }
+
+                        setStatus('success');
+                        setMessage('LINE Pay 支付成功！');
                         setTimeout(() => router.push(`/orders/${payment.orderSn}`), 1000);
                     } else {
+                        setStatus('success');
+                        setMessage('LINE Pay 支付成功！');
                         setTimeout(() => router.push('/profile/orders'), 1000);
                     }
                 } catch (error: any) {
@@ -56,7 +74,7 @@ function CallbackContent() {
                 const checkStatus = async () => {
                     if (isCancelled) return;
                     try {
-                        const payment = await paymentApi.getDetail(paymentSn);
+                        const payment = await paymentApi.getDetail(paymentSn, { t: Date.now() });
                         console.log('Polling result:', payment);
 
                         if (!payment) {
@@ -68,10 +86,24 @@ function CallbackContent() {
 
                         // 狀態映射: SUCCESS 視為付款成功 (PaymentStatus Enum)
                         if (payment.paymentStatus === 'SUCCESS') {
+                            setMessage('同步系統狀態中...');
+
+                            // 輪詢訂單狀態，等待 MQ 同步 (0 = PENDING_PAYMENT)
+                            for (let i = 0; i < 10; i++) {
+                                if (isCancelled) return;
+                                try {
+                                    const orderStatus = await orderApi.getStatus(payment.orderSn, { t: Date.now() });
+                                    if (orderStatus.status !== 0) break;
+                                } catch (e) {
+                                    console.warn('Order status sync wait:', e);
+                                }
+                                await new Promise(r => setTimeout(r, 1000));
+                            }
+
                             setStatus('success');
                             setMessage('付款確認成功！');
                             setTimeout(() => router.push(`/orders/${payment.orderSn}`), 1000);
-                        } else if (payment.paymentStatus === 'CLOSED' || payment.paymentStatus === 'REFUNDED') {
+                        } else if (['CLOSED', 'REFUNDED', 'FAILED', 'CANCELLED', 'EXPIRED'].includes(payment.paymentStatus)) {
                             // Redirect to error page
                             router.push(`/checkout/error?code=${payment.paymentStatus}&message=${encodeURIComponent('付款失敗或已關閉，請重新嘗試。')}`);
                         } else {

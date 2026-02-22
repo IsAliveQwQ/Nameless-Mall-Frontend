@@ -25,8 +25,8 @@ export const orderApi = {
      * 輪詢訂單建立狀態（異步下單用）
      * 返回輕量級 OrderVO，僅含 status + failReason
      */
-    getStatus: (orderSn: string) => {
-        return api.get<OrderVO>(`orders/${orderSn}/status`);
+    getStatus: (orderSn: string, params?: Record<string, any>) => {
+        return api.get<OrderVO>(`orders/${orderSn}/status`, { params });
     },
 
     /**

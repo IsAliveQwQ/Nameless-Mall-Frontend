@@ -16,7 +16,6 @@ function ProcessingContent() {
     const searchParams = useSearchParams();
     const paymentSn = searchParams.get('paymentSn');
     const orderSn = searchParams.get('orderSn');
-    const hasStarted = useRef(false);
 
     const [status, setStatus] = useState<ProcessingStatus>('loading');
     const [message, setMessage] = useState('正在等待付款確認...');
@@ -33,9 +32,6 @@ function ProcessingContent() {
     ];
 
     useEffect(() => {
-        if (hasStarted.current) return;
-        hasStarted.current = true;
-
         if (!paymentSn || !orderSn) {
             setStatus('error');
             setMessage('無效的付款請求');
