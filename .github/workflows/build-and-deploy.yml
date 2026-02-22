@@ -143,7 +143,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
           script: |
             echo "🚀 Starting Frontend Deployment..."
-            cd ~/mall-deployment
+            cd /root/nameless-mall
             
             # 1. 拉取最新前端鏡像
             echo "⬇️ Pulling latest image..."
