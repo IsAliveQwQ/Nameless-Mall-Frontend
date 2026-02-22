@@ -33,7 +33,7 @@ const nextConfig = {
       }
     ],
     // 在開發環境也可以嘗試開啟優化，但若網路環境極差可設為 true
-    unoptimized: false,
+    unoptimized: true,
   },
 
   // 本地開發環境的 CORS 代理與路徑轉發
