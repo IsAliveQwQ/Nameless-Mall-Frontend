@@ -35,7 +35,7 @@ function CallbackContent() {
                     const paymentSn = params.paymentSn || params.orderId;
                     if (paymentSn) {
                         const payment = await paymentApi.getDetail(paymentSn);
-                        setTimeout(() => router.push(`/checkout/success?orderSn=${payment.orderSn}`), 1000);
+                        setTimeout(() => router.push(`/orders/${payment.orderSn}`), 1000);
                     } else {
                         setTimeout(() => router.push('/profile/orders'), 1000);
                     }
@@ -70,7 +70,7 @@ function CallbackContent() {
                         if (payment.paymentStatus === 'SUCCESS') {
                             setStatus('success');
                             setMessage('付款確認成功！');
-                            setTimeout(() => router.push(`/checkout/success?orderSn=${payment.orderSn}`), 1000);
+                            setTimeout(() => router.push(`/orders/${payment.orderSn}`), 1000);
                         } else if (payment.paymentStatus === 'CLOSED' || payment.paymentStatus === 'REFUNDED') {
                             // Redirect to error page
                             router.push(`/checkout/error?code=${payment.paymentStatus}&message=${encodeURIComponent('付款失敗或已關閉，請重新嘗試。')}`);

@@ -141,7 +141,7 @@ export default function AuthPage() {
                             >
                                 <div className="space-y-2 group">
                                     <label className="block font-mono text-xs font-medium text-[#18181B] uppercase tracking-wider" htmlFor="username">
-                                        Username <span className="text-zinc-300 ml-1">///</span>
+                                        Username <span className="text-zinc-300 ml-1">{`///`}</span>
                                     </label>
                                     <input
                                         id="username"
@@ -164,7 +164,7 @@ export default function AuthPage() {
                                 <div className="space-y-2 group">
                                     <div className="flex justify-between items-center">
                                         <label className="block font-mono text-xs font-medium text-[#18181B] uppercase tracking-wider" htmlFor="password">
-                                            Password <span className="text-zinc-300 ml-1">///</span>
+                                            Password <span className="text-zinc-300 ml-1">{`///`}</span>
                                         </label>
                                         {isLogin && (
                                             <Link href="#" className="text-[11px] font-mono text-[#71717A] hover:text-[#18181B] transition-colors uppercase tracking-wider">

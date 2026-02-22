@@ -48,12 +48,18 @@ function ProcessingContent() {
         const maxPolls = 150; // 5 分鐘
         let currentPoll = 0;
 
+        let isCancelled = false;
+        let pollTimer: NodeJS.Timeout;
+
         const pollPaymentStatus = async () => {
+            if (isCancelled) return;
             try {
-                const paymentDetail = await paymentApi.getDetail(paymentSn);
+                // [Fix] 加入 { t: Date.now() } 破壞瀏覽器/Next.js 預設 HTTP Cache，避免無限輪詢舊狀態
+                const paymentDetail = await paymentApi.getDetail(paymentSn, { t: Date.now() });
                 const paymentStatus = paymentDetail.paymentStatus;
 
                 if (paymentStatus === 'SUCCESS') {
+                    if (isCancelled) return;
                     setStatus('success');
                     setMessage('付款成功！');
                     setSubMessage('感謝您的購買，正在跳轉...');
@@ -63,7 +69,8 @@ function ProcessingContent() {
                     return;
                 }
 
-                if (paymentStatus === 'CLOSED' || paymentStatus === 'REFUNDED') {
+                if (['CLOSED', 'REFUNDED', 'FAILED', 'CANCELLED', 'EXPIRED'].includes(paymentStatus)) {
+                    if (isCancelled) return;
                     setStatus('error');
                     setMessage('付款未成功');
                     setSubMessage('交易已取消或被拒絕');
@@ -74,6 +81,7 @@ function ProcessingContent() {
                 }
 
                 // 仍在等待中
+                if (isCancelled) return;
                 currentPoll++;
                 setPollCount(currentPoll);
 
@@ -82,7 +90,7 @@ function ProcessingContent() {
                 setMessage(loadingMessages[msgIndex]);
 
                 if (currentPoll < maxPolls) {
-                    setTimeout(pollPaymentStatus, pollInterval);
+                    pollTimer = setTimeout(pollPaymentStatus, pollInterval);
                 } else {
                     // 超時
                     setStatus('error');
@@ -94,15 +102,21 @@ function ProcessingContent() {
                 }
             } catch (error) {
                 console.error('Poll payment status error:', error);
+                if (isCancelled) return;
                 currentPoll++;
                 if (currentPoll < maxPolls) {
-                    setTimeout(pollPaymentStatus, pollInterval);
+                    pollTimer = setTimeout(pollPaymentStatus, pollInterval);
                 }
             }
         };
 
         // 開始輪詢
-        setTimeout(pollPaymentStatus, pollInterval);
+        pollTimer = setTimeout(pollPaymentStatus, pollInterval);
+
+        return () => {
+            isCancelled = true;
+            if (pollTimer) clearTimeout(pollTimer);
+        };
     }, [paymentSn, orderSn, router]);
 
     return (

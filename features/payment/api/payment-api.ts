@@ -16,8 +16,8 @@ export const paymentApi = {
     /**
      * 查詢支付詳情與狀態
      */
-    getDetail: (paymentSn: string) => {
-        return api.get<PaymentVO>(`payments/${paymentSn}`);
+    getDetail: (paymentSn: string, params?: Record<string, any>) => {
+        return api.get<PaymentVO>(`payments/${paymentSn}`, { params });
     },
 
     /**
