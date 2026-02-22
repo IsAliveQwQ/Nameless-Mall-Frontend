@@ -38,13 +38,15 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 
-# 【關鍵新增】在最終的 production image 中安裝 curl
-# 必須在切換到 nextjs 這個非 root 使用者之前執行
-RUN apk add --no-cache curl
+# 【關鍵新增】安裝 libvips 以支持 sharp，並設置權限
+RUN apk add --no-cache curl vips
 
 # 建立一個非 root 的使用者和群組來運行應用，更安全
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
+
+# [Engineering Discipline] 預先建立 .next/cache 並由 nextjs 擁有，防止圖片優化 404
+RUN mkdir -p /app/.next/cache && chown -R nextjs:nodejs /app/.next
 
 # 從 builder 階段複製必要的產物
 COPY --from=builder --chown=nextjs:nodejs /app/public ./public
