@@ -143,15 +143,15 @@ jobs:
           key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
           script: |
             echo "🚀 Starting Frontend Deployment..."
-            cd /root/nameless-mall
+            cd ~/mall-deployment
             
             # 1. 拉取最新前端鏡像
             echo "⬇️ Pulling latest image..."
-            docker compose pull frontend-app
+            docker compose pull frontend
             
             # 2. 重啟前端容器 (Zero Downtime if scaled, but here likely brief interruption)
             echo "🔄 Restarting container..."
-            docker compose up -d frontend-app
+            docker compose up -d frontend
             
             # 3. 清理舊鏡像
             docker image prune -f
